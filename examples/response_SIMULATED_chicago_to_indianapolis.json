@@ -1,0 +1,93 @@
+{
+    "start": {
+        "query": "Chicago, IL",
+        "resolved_as": "Chicago, IL, USA",
+        "lat": 41.85453,
+        "lon": -87.67469
+    },
+    "finish": {
+        "query": "Indianapolis, IN",
+        "resolved_as": "Indianapolis, IN, USA",
+        "lat": 39.7973,
+        "lon": -86.13888
+    },
+    "route": {
+        "distance_miles": 187.7,
+        "duration_hours": 3.13,
+        "geometry_points": 34
+    },
+    "fuel_stops": [],
+    "fuel_summary": {
+        "mpg": 10,
+        "max_range_miles": 500,
+        "tank_capacity_gallons": 50.0,
+        "route_distance_miles": 187.7,
+        "detour_miles": 0,
+        "total_driven_miles": 187.7,
+        "fuel_consumed_gallons": 18.77,
+        "gallons_purchased": 0,
+        "gallons_left_at_destination": 31.23,
+        "amount_paid_at_stops_usd": 0,
+        "initial_tank_reference_price_per_gallon": 3.576,
+        "initial_tank_value_usd": 178.8,
+        "left_at_destination_value_usd": 111.67,
+        "total_fuel_cost_usd": 67.13,
+        "cost_formula": "total_fuel_cost_usd = initial_tank_value_usd + amount_paid_at_stops_usd - left_at_destination_value_usd"
+    },
+    "baseline_comparison": {
+        "strategy": "Drive to the farthest reachable station, fill the tank, repeat (prices ignored).",
+        "stops": 0,
+        "amount_paid_at_stops_usd": 0,
+        "gallons_left_at_destination": 31.23,
+        "total_fuel_cost_usd": 67.13,
+        "optimized_saves_total_cost_usd": 0.0,
+        "optimized_saves_amount_paid_usd": 0
+    },
+    "search": {
+        "corridor_miles": 10,
+        "stations_in_corridor": 73,
+        "locations_considered": 27
+    },
+    "map": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "kind": "start",
+                    "label": "Chicago, IL, USA"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -87.67469,
+                        41.85453
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "kind": "finish",
+                    "label": "Indianapolis, IN, USA"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -86.13888,
+                        39.7973
+                    ]
+                }
+            }
+        ]
+    },
+    "assumptions": [
+        "The vehicle starts with a full 50-gallon tank (500 miles at 10 mpg). That fuel was not bought at a listed station, so it is valued at the average price of stations near the route (initial_tank_reference_price_per_gallon).",
+        "Each stop buys only the fuel needed to reach a cheaper stop or the destination, or fills the tank when no cheaper stop is in range. amount_paid_at_stops_usd is cash spent at the pumps; total_fuel_cost_usd is the value of the fuel actually burned.",
+        "The CSV has no coordinates. Each station is placed at its city's ZIP-code centroid, so route_mile and off-route distances are approximate.",
+        "Visiting a station adds a round trip of twice its straight-line distance from the route. That extra driving burns fuel and counts against the range.",
+        "A station listed on several CSV rows is priced at the mean of those rows. Canadian rows and prices outside $1-$10 are ignored.",
+        "Prices come from the supplied CSV, not live data. Routes come from OpenRouteService (driving-car profile)."
+    ],
+    "attribution": "\u00a9 openrouteservice.org by HeiGIT | Map data \u00a9 OpenStreetMap contributors"
+}

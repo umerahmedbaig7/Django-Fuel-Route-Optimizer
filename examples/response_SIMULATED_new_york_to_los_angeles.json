@@ -1,0 +1,445 @@
+{
+    "start": {
+        "query": "New York, NY",
+        "resolved_as": "New York, NY, USA",
+        "lat": 40.7554,
+        "lon": -73.98286
+    },
+    "finish": {
+        "query": "Los Angeles, CA",
+        "resolved_as": "Los Angeles, CA, USA",
+        "lat": 34.03258,
+        "lon": -118.2779
+    },
+    "route": {
+        "distance_miles": 2892.6,
+        "duration_hours": 48.21,
+        "geometry_points": 504
+    },
+    "fuel_stops": [
+        {
+            "stop_number": 1,
+            "station_id": 66532,
+            "name": "PETRO PLAZA",
+            "address": "I-78, EXIT 17",
+            "city": "Hampton",
+            "state": "NJ",
+            "price_per_gallon": 3.266,
+            "location": {
+                "lat": 40.6774,
+                "lon": -74.9622,
+                "precision": "city_zip_centroid"
+            },
+            "route_mile": 59.8,
+            "off_route_miles_one_way": 0.5,
+            "detour_miles_round_trip": 1.1,
+            "miles_from_previous_stop": 60.3,
+            "miles_to_next_stop": 489.0,
+            "fuel_on_arrival_gallons": 43.97,
+            "gallons_purchased": 4.93,
+            "cost_usd": 16.1
+        },
+        {
+            "stop_number": 2,
+            "station_id": 70717,
+            "name": "Certified Oil #400491",
+            "address": "I-270 EXIT 52",
+            "city": "Columbus",
+            "state": "OH",
+            "price_per_gallon": 3.202,
+            "location": {
+                "lat": 39.99238,
+                "lon": -82.98904,
+                "precision": "city_zip_centroid"
+            },
+            "route_mile": 547.2,
+            "off_route_miles_one_way": 1.0,
+            "detour_miles_round_trip": 2.0,
+            "miles_from_previous_stop": 489.0,
+            "miles_to_next_stop": 31.4,
+            "fuel_on_arrival_gallons": 0.0,
+            "gallons_purchased": 3.14,
+            "cost_usd": 10.06
+        },
+        {
+            "stop_number": 3,
+            "station_id": 72783,
+            "name": "SHEETZ #770",
+            "address": "I-70 & US-42",
+            "city": "London",
+            "state": "OH",
+            "price_per_gallon": 2.999,
+            "location": {
+                "lat": 39.9001,
+                "lon": -83.4439,
+                "precision": "city_zip_centroid"
+            },
+            "route_mile": 577.1,
+            "off_route_miles_one_way": 0.5,
+            "detour_miles_round_trip": 1.1,
+            "miles_from_previous_stop": 31.4,
+            "miles_to_next_stop": 433.0,
+            "fuel_on_arrival_gallons": 0.0,
+            "gallons_purchased": 43.3,
+            "cost_usd": 129.85
+        },
+        {
+            "stop_number": 4,
+            "station_id": 2231,
+            "name": "QUIKTRIP #605",
+            "address": "I-270, EXIT 33",
+            "city": "Saint Louis",
+            "state": "MO",
+            "price_per_gallon": 2.899,
+            "location": {
+                "lat": 38.639,
+                "lon": -90.28107,
+                "precision": "city_zip_centroid"
+            },
+            "route_mile": 1009.4,
+            "off_route_miles_one_way": 0.2,
+            "detour_miles_round_trip": 0.3,
+            "miles_from_previous_stop": 433.0,
+            "miles_to_next_stop": 233.4,
+            "fuel_on_arrival_gallons": 0.0,
+            "gallons_purchased": 50.0,
+            "cost_usd": 144.95
+        },
+        {
+            "stop_number": 5,
+            "station_id": 4368,
+            "name": "HOODS SERVICE CENTER",
+            "address": "I-44, EXIT 61",
+            "city": "Bois D Arc",
+            "state": "MO",
+            "price_per_gallon": 3.074,
+            "location": {
+                "lat": 37.2214,
+                "lon": -93.5447,
+                "precision": "city_zip_centroid"
+            },
+            "route_mile": 1241.6,
+            "off_route_miles_one_way": 1.0,
+            "detour_miles_round_trip": 1.9,
+            "miles_from_previous_stop": 233.4,
+            "miles_to_next_stop": 289.2,
+            "fuel_on_arrival_gallons": 26.66,
+            "gallons_purchased": 2.25,
+            "cost_usd": 6.92
+        },
+        {
+            "stop_number": 6,
+            "station_id": 3383,
+            "name": "E-Express at Central Truck Stop",
+            "address": "I-35, EXIT 137",
+            "city": "Oklahoma City",
+            "state": "OK",
+            "price_per_gallon": 2.879,
+            "location": {
+                "lat": 35.4937,
+                "lon": -97.49034,
+                "precision": "city_zip_centroid"
+            },
+            "route_mile": 1529.0,
+            "off_route_miles_one_way": 0.8,
+            "detour_miles_round_trip": 1.6,
+            "miles_from_previous_stop": 289.2,
+            "miles_to_next_stop": 288.8,
+            "fuel_on_arrival_gallons": 0.0,
+            "gallons_purchased": 28.88,
+            "cost_usd": 83.16
+        },
+        {
+            "stop_number": 7,
+            "station_id": 72816,
+            "name": "QUIKTRIP #7914",
+            "address": "I-27 EXIT 117",
+            "city": "Amarillo",
+            "state": "TX",
+            "price_per_gallon": 2.846,
+            "location": {
+                "lat": 35.25369,
+                "lon": -101.8601,
+                "precision": "city_zip_centroid"
+            },
+            "route_mile": 1814.1,
+            "off_route_miles_one_way": 2.9,
+            "detour_miles_round_trip": 5.9,
+            "miles_from_previous_stop": 288.8,
+            "miles_to_next_stop": 313.7,
+            "fuel_on_arrival_gallons": 0.0,
+            "gallons_purchased": 50.0,
+            "cost_usd": 142.28
+        },
+        {
+            "stop_number": 8,
+            "station_id": 70879,
+            "name": "MAVERIK COUNTRY STORE #611",
+            "address": "I-40 EXIT 154",
+            "city": "Albuquerque",
+            "state": "NM",
+            "price_per_gallon": 3.194,
+            "location": {
+                "lat": 35.07883,
+                "lon": -106.63997,
+                "precision": "city_zip_centroid"
+            },
+            "route_mile": 2124.5,
+            "off_route_miles_one_way": 0.4,
+            "detour_miles_round_trip": 0.8,
+            "miles_from_previous_stop": 313.7,
+            "miles_to_next_stop": 325.1,
+            "fuel_on_arrival_gallons": 18.63,
+            "gallons_purchased": 31.37,
+            "cost_usd": 100.2
+        },
+        {
+            "stop_number": 9,
+            "station_id": 6593,
+            "name": "LITTLE AMERICA TRAVEL CENTER",
+            "address": "I-40, EXIT 198",
+            "city": "Flagstaff",
+            "state": "AZ",
+            "price_per_gallon": 3.539,
+            "location": {
+                "lat": 35.1934,
+                "lon": -111.64482,
+                "precision": "city_zip_centroid"
+            },
+            "route_mile": 2448.7,
+            "off_route_miles_one_way": 0.5,
+            "detour_miles_round_trip": 1.0,
+            "miles_from_previous_stop": 325.1,
+            "miles_to_next_stop": 444.4,
+            "fuel_on_arrival_gallons": 17.49,
+            "gallons_purchased": 26.95,
+            "cost_usd": 95.39
+        }
+    ],
+    "fuel_summary": {
+        "mpg": 10,
+        "max_range_miles": 500,
+        "tank_capacity_gallons": 50.0,
+        "route_distance_miles": 2892.6,
+        "detour_miles": 15.7,
+        "total_driven_miles": 2908.3,
+        "fuel_consumed_gallons": 290.83,
+        "gallons_purchased": 240.83,
+        "gallons_left_at_destination": 0.0,
+        "amount_paid_at_stops_usd": 728.91,
+        "initial_tank_reference_price_per_gallon": 3.391,
+        "initial_tank_value_usd": 169.56,
+        "left_at_destination_value_usd": 0.0,
+        "total_fuel_cost_usd": 898.47,
+        "cost_formula": "total_fuel_cost_usd = initial_tank_value_usd + amount_paid_at_stops_usd - left_at_destination_value_usd"
+    },
+    "baseline_comparison": {
+        "strategy": "Drive to the farthest reachable station, fill the tank, repeat (prices ignored).",
+        "stops": 6,
+        "amount_paid_at_stops_usd": 928.22,
+        "gallons_left_at_destination": 21.37,
+        "total_fuel_cost_usd": 1021.71,
+        "optimized_saves_total_cost_usd": 123.24,
+        "optimized_saves_amount_paid_usd": 199.3
+    },
+    "search": {
+        "corridor_miles": 10,
+        "stations_in_corridor": 298,
+        "locations_considered": 136
+    },
+    "map": {
+        "type": "FeatureCollection",
+        "features": [
+            {
+                "type": "Feature",
+                "properties": {
+                    "kind": "start",
+                    "label": "New York, NY, USA"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -73.98286,
+                        40.7554
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "kind": "finish",
+                    "label": "Los Angeles, CA, USA"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -118.2779,
+                        34.03258
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "kind": "fuel_stop",
+                    "stop_number": 1,
+                    "name": "PETRO PLAZA",
+                    "price_per_gallon": 3.266,
+                    "gallons_purchased": 4.93
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -74.9622,
+                        40.6774
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "kind": "fuel_stop",
+                    "stop_number": 2,
+                    "name": "Certified Oil #400491",
+                    "price_per_gallon": 3.202,
+                    "gallons_purchased": 3.14
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -82.98904,
+                        39.99238
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "kind": "fuel_stop",
+                    "stop_number": 3,
+                    "name": "SHEETZ #770",
+                    "price_per_gallon": 2.999,
+                    "gallons_purchased": 43.3
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -83.4439,
+                        39.9001
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "kind": "fuel_stop",
+                    "stop_number": 4,
+                    "name": "QUIKTRIP #605",
+                    "price_per_gallon": 2.899,
+                    "gallons_purchased": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -90.28107,
+                        38.639
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "kind": "fuel_stop",
+                    "stop_number": 5,
+                    "name": "HOODS SERVICE CENTER",
+                    "price_per_gallon": 3.074,
+                    "gallons_purchased": 2.25
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -93.5447,
+                        37.2214
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "kind": "fuel_stop",
+                    "stop_number": 6,
+                    "name": "E-Express at Central Truck Stop",
+                    "price_per_gallon": 2.879,
+                    "gallons_purchased": 28.88
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -97.49034,
+                        35.4937
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "kind": "fuel_stop",
+                    "stop_number": 7,
+                    "name": "QUIKTRIP #7914",
+                    "price_per_gallon": 2.846,
+                    "gallons_purchased": 50.0
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -101.8601,
+                        35.25369
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "kind": "fuel_stop",
+                    "stop_number": 8,
+                    "name": "MAVERIK COUNTRY STORE #611",
+                    "price_per_gallon": 3.194,
+                    "gallons_purchased": 31.37
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -106.63997,
+                        35.07883
+                    ]
+                }
+            },
+            {
+                "type": "Feature",
+                "properties": {
+                    "kind": "fuel_stop",
+                    "stop_number": 9,
+                    "name": "LITTLE AMERICA TRAVEL CENTER",
+                    "price_per_gallon": 3.539,
+                    "gallons_purchased": 26.95
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        -111.64482,
+                        35.1934
+                    ]
+                }
+            }
+        ]
+    },
+    "assumptions": [
+        "The vehicle starts with a full 50-gallon tank (500 miles at 10 mpg). That fuel was not bought at a listed station, so it is valued at the average price of stations near the route (initial_tank_reference_price_per_gallon).",
+        "Each stop buys only the fuel needed to reach a cheaper stop or the destination, or fills the tank when no cheaper stop is in range. amount_paid_at_stops_usd is cash spent at the pumps; total_fuel_cost_usd is the value of the fuel actually burned.",
+        "The CSV has no coordinates. Each station is placed at its city's ZIP-code centroid, so route_mile and off-route distances are approximate.",
+        "Visiting a station adds a round trip of twice its straight-line distance from the route. That extra driving burns fuel and counts against the range.",
+        "A station listed on several CSV rows is priced at the mean of those rows. Canadian rows and prices outside $1-$10 are ignored.",
+        "Prices come from the supplied CSV, not live data. Routes come from OpenRouteService (driving-car profile)."
+    ],
+    "attribution": "\u00a9 openrouteservice.org by HeiGIT | Map data \u00a9 OpenStreetMap contributors"
+}
