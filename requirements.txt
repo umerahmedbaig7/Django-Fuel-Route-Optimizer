@@ -1,0 +1,5 @@
+Django==5.2.18
+djangorestframework==3.18.3
+requests==2.34.2
+python-dotenv==1.2.4
+zipcodes==3.0.0
