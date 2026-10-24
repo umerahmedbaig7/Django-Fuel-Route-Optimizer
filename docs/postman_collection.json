@@ -1,0 +1,58 @@
+{
+  "info": {
+    "name": "Fuel Route Planner",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [{ "key": "base_url", "value": "http://127.0.0.1:8000" }],
+  "item": [
+    {
+      "name": "Health check",
+      "request": { "method": "GET", "url": "{{base_url}}/api/health/" }
+    },
+    {
+      "name": "Plan route - New York to Los Angeles (multiple stops)",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{base_url}}/api/route/",
+        "body": { "mode": "raw", "raw": "{\n  \"start\": \"New York, NY\",\n  \"finish\": \"Los Angeles, CA\",\n  \"include_geometry\": false\n}" }
+      }
+    },
+    {
+      "name": "Plan route - Chicago to Indianapolis (no stops needed)",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{base_url}}/api/route/",
+        "body": { "mode": "raw", "raw": "{\n  \"start\": \"Chicago, IL\",\n  \"finish\": \"Indianapolis, IN\"\n}" }
+      }
+    },
+    {
+      "name": "Plan route - coordinates (skips geocoding, 1 external call)",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{base_url}}/api/route/",
+        "body": { "mode": "raw", "raw": "{\n  \"start\": \"41.8781,-87.6298\",\n  \"finish\": \"32.7767,-96.7970\"\n}" }
+      }
+    },
+    {
+      "name": "Error - missing finish (400)",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{base_url}}/api/route/",
+        "body": { "mode": "raw", "raw": "{\n  \"start\": \"Chicago, IL\"\n}" }
+      }
+    },
+    {
+      "name": "Error - location outside the USA (422)",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "url": "{{base_url}}/api/route/",
+        "body": { "mode": "raw", "raw": "{\n  \"start\": \"51.5074,-0.1278\",\n  \"finish\": \"Dallas, TX\"\n}" }
+      }
+    }
+  ]
+}
